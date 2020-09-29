@@ -21,7 +21,6 @@ you may find getmriCurrentLable.py is slightly different. This script does the s
  
 3) generate a unique index for each MRI/PET volume and maps them to RIDs: you can refer to getRIDroMRImapping.py. This script opens the MRI/PRT h5py files (created from last step) and assign a unique index to each MRI/PET volume and then map the indices to RIDs. Finally, it gives you a pickle file, named RIDtoMRIdict.pkl/RIDroPETdict.pkl，in which you will see each RID has a collection of indices (corresponding MRI/PET volumes).  
 
- 
 4)split data into training , validation and testing (based on RIDs): You can refer to splitDataset.py. This is to do a patient-level split rather an image-level split to guarantee no overlap between trainning, validation and test (We train on some patients and validate/test on unseen patients). you can specify the percentage of RIDs (each RID could have multiple scans) you'd like to train on, then the rest is split one half for validation and the other half for testing. This script returns you three .pkl files (store the training, validation and testing image indices, respectively).
 
 Models:
