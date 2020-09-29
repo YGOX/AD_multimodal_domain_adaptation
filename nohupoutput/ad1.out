@@ -1,0 +1,15 @@
+nohup: ignoring input
+399
+0 239
+239 318
+Total number of patients (train + valid + test) :{}
+Patient count in train set:{}
+Patient count in valid set:{}
+Patient count in test set:{}
+PET count in Train set:{}
+PET count in Valid set:{},
+pet count in Test set:399
+Traceback (most recent call last):
+  File "main_multi.py", line 36, in <module>
+    if modality is None:
+NameError: name 'modality' is not defined
