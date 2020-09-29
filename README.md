@@ -1,8 +1,3 @@
-This work is heavily based on the work of Basu et al:
-https://github.com/sumanabasu/CNN-in-tracking-Alzheimers/tree/vae
-Basu et al (2019), Early Prediction of Alzheimer’s Disease Progression Using Variational Autoencoders, MICCAI 2019
-
-
 ###Prediction of Alzheimer’s Disease
 
 ADNI_info:
