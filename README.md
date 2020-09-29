@@ -1,4 +1,4 @@
-###Prediction of Alzheimer’s Disease
+###AD_multimodal_domain_adaptation: Implementation of variational auto encoder and adversial training on domain adaptation 
 
 ADNI_info:
 ADN1_Annual_2_Yr_1.5T_12_15_2019.csv- all raw mri information
